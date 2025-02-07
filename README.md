@@ -81,7 +81,9 @@ _Votre réponse pour l'exercice 3 :_
 ```
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
+<img src="" >
 ```
+
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 #### Objectif : Gérer le chargement et la pagination

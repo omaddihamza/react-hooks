@@ -1,12 +1,16 @@
 import React, { useState, useContext } from 'react';
-import { ThemeContext } from '../App';
+import { LanguageContext, ThemeContext } from '../App';
+import { useDebounce } from 'use-debounce';
+
 
 const ProductSearch = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const { isDarkTheme } = useContext(ThemeContext);
   // TODO: Exercice 2.1 - Utiliser le LanguageContext
-  
+  const {langue} = useContext(LanguageContext);
   // TODO: Exercice 1.2 - Utiliser le hook useDebounce
+  
+  const [debouncedSearchTerm] = useDebounce(searchTerm, 500);
   
   return (
     <div className="mb-4">
