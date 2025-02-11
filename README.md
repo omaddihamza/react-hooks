@@ -81,14 +81,12 @@ _Votre réponse pour l'exercice 3 :_
 ```
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
-
+```
 hook useDebounce  
 <img src="captures/image.png">
 
 hook useLocalStorage  
 <img src="captures/image-1.png">
-```
-
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 #### Objectif : Gérer le chargement et la pagination
