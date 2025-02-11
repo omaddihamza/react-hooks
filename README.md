@@ -82,11 +82,11 @@ _Votre réponse pour l'exercice 3 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 
- hook useDebounce
-<img src="public/image.png" width="200">
+hook useDebounce  
+![useDebounce](image.png)
 
-hook useLocalStorage
-<img src="public/image-1.png" width="200">
+hook useLocalStorage  
+![useLocalStorage](image-1.png)
 ```
 
 
