@@ -69,6 +69,10 @@ _Votre réponse pour l'exercice 2 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
+LanguageContext et sélecteur de langue
+<img src="captures/image-2.png">
+<img src="captures/image-3.png">
+
 
 ### Exercice 3 : Hooks Personnalisés
 #### Objectif : Créer des hooks réutilisables
