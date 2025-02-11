@@ -69,7 +69,7 @@ _Votre réponse pour l'exercice 2 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
-LanguageContext et sélecteur de langue
+<h1>LanguageContext et sélecteur de langue</h1>
 <img src="captures/image-2.png">
 <img src="captures/image-3.png">
 
@@ -86,10 +86,11 @@ _Votre réponse pour l'exercice 3 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
-hook useDebounce  
+
+<h1> hook useDebounce  </h1>
 <img src="captures/image.png">
 
-hook useLocalStorage  
+<h1> hook useLocalStorage </h1>
 <img src="captures/image-1.png">
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
