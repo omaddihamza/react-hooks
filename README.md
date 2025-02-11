@@ -83,10 +83,10 @@ Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 
  hook useDebounce
-<img src="image.png">
+<img src="public/image.png" width="200">
 
 hook useLocalStorage
-<img src="image-1.png">
+<img src="public/image-1.png" width="200">
 ```
 
 
