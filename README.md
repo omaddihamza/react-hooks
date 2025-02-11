@@ -81,7 +81,12 @@ _Votre réponse pour l'exercice 3 :_
 ```
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
-<img src="" >
+
+ hook useDebounce
+![alt text](image.png)
+
+hook useLocalStorage
+![alt text](image-1.png)
 ```
 
 
