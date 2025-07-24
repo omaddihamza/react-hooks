@@ -105,7 +105,11 @@ _Votre réponse pour l'exercice 4 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
+<h1> Ajouter le bouton de rechargement  </h1>
+<img src="captures/image-4.png">
 
+<h1>  Implémenter la pagination </h1>
+<img src="captures/image-5.png">
 ## Rendu
 
 - Ajoutez l'URL de votre dépôt Github dans  **Classroom** et envoyer la réponse dès le démarage de votre projet.

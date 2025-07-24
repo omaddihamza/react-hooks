@@ -1,14 +1,18 @@
-import React, { useContext, useRef } from 'react'
+import React, { useContext } from 'react';
 import { LanguageContext } from '../App';
 
-export default function LangueSelectore() {
+export default function  LangueSelectore()  {
+    const { setLangue } = useContext(LanguageContext);
 
-const {setLangue} = useContext(LanguageContext);
-  return (
-    <select  onChange={(e)=>setLangue(e.target.value)}>
-        <option value="fr">Français</option>
-        <option value="en">English</option>
-        <option value="ar">العربية</option>
-    </select>
-  )
+    return (
+        <select
+            onChange={(e) => setLangue(e.target.value)}
+            className="form-select"
+            style={{ width: 'auto' }}
+        >
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
+    );
 }
