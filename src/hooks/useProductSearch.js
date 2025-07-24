@@ -42,7 +42,7 @@ export const useDebounce = (value, delay) => {
   return [localValue, setLocalValue];
 }
 
-const useProductSearch = () => {
+const useProductSearch = (debouncedValue) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -51,11 +51,11 @@ const useProductSearch = () => {
   const [totalPages, setTotalPages] = useState(1);
   const itemsPerPage = 6;
 
-  const fetchProducts = async (page = 1) => {
+  const fetchProducts = async (page = 1, title = debouncedValue) => {
     setLoading(true);
     try {
       // TODO: Exercice 4.2 - Modifier l'URL pour inclure les paramètres de pagination
-      const response = await fetch(`https://dummyjson.com/products?limit=${itemsPerPage}&skip=${(page - 1) * itemsPerPage}`);
+      const response = await fetch(`https://dummyjson.com/products/search?q=${title}&limit=${itemsPerPage}&skip=${(page - 1) * itemsPerPage}`);
       if (!response.ok) throw new Error('Erreur réseau');
       const data = await response.json();
       setProducts(data.products);

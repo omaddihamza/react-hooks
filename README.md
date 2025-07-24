@@ -56,6 +56,8 @@ _Votre réponse pour l'exercice 1 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
+<h1>Modifier le composant et Implémenter le debounce sur la recherche </h1>
+<img src="captures/image-6.png">
 
 ### Exercice 2 : Context et Internationalisation
 #### Objectif : Gérer les préférences de langue

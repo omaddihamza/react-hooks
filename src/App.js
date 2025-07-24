@@ -13,6 +13,8 @@ const App = () => {
     const [isDarkTheme, setIsDarkTheme] = useState(false);
     // TODO: Exercice 2.2 - Ajouter l'état pour la langue
     const [langue, setLangue] = useState("fr");
+    const [debouncedValue, setDebouncedValue] = useState('');
+
 
     const getTitle = () => {
         switch(langue) {
@@ -37,8 +39,8 @@ const App = () => {
                             </div>
                         </header>
                         <main>
-                            <ProductSearch />
-                            <ProductList />
+                            <ProductSearch onDebouncedChange={setDebouncedValue}/>
+                            <ProductList debouncedValue={debouncedValue} />
                         </main>
                     </div>
                 </div>

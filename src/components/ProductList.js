@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ThemeContext, LanguageContext } from '../App';
 import useProductSearch from '../hooks/useProductSearch';
 
-export default function ProductList()  {
+export default function ProductList({debouncedValue})  {
     const { isDarkTheme } = useContext(ThemeContext);
     // TODO: Exercice 2.1 - Utiliser le LanguageContext pour les traductions
     const { langue } = useContext(LanguageContext);
@@ -18,7 +18,7 @@ export default function ProductList()  {
         totalPages,
         nextPage,
         previousPage
-    } = useProductSearch();
+    } = useProductSearch(debouncedValue);
 
     const getTranslations = () => {
         switch(langue) {
